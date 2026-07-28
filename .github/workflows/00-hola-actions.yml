@@ -20,7 +20,7 @@ jobs:
     name: Saludo
     runs-on: ubuntu-latest
     steps:
-      - name: Imprimir un mensaje
+      - names: Imprimir un mensaje
         run: echo "Hola desde GitHub Actions"
 
       - name: Ver el contexto de ejecución
